@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Artligne</title>
+</head>
+
+<body>
+    <header>
+        <a href="#Home" class="logo1">Artligne</a>
+
+        <button class="menu" id="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </button>
+        <button class="menu" id="close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle"
+                viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+            </svg>
+        </button>
+        <a href="#Home" class="logo2">Artligne</a>
+        <nav class="navigation" id="nav">
+            <ul>
+
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li class="has-submenu">
+                    <a href="artistes.html">Artistes</a>
+                    <ul class="submenu">
+                        <li><a href="artistes.html#artiste1">Marie Leclerc</a></li>
+                        <li><a href="artistes.html#artiste2">Thomas Dubois</a></li>
+                        <li><a href="artistes.html#artiste3">Sophie Martin</a></li>
+                        <li><a href="artistes.html#artiste4">Jean Petit</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="theme-toggle">
+            <button class="theme-btn" id="claire" title="Mode clair">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-sun-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
+                </svg>
+            </button>
+            <button class="theme-btn" id="sombre" title="Mode sombre">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-moon-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.74.74 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <section class="chart" id="Apropos">
+        <h1>À propos de nous</h1>
+        <p>
+            Artligne est une plateforme dédiée à la promotion et à la découverte d'artistes émergents et établis. Fondée
+            en 2020, notre mission est de créer un espace où l'art peut être apprécié, partagé et acheté en toute
+            simplicité.
+        </p>
+        <p>
+            Nous croyons que chaque artiste mérite d'être vu et chaque collectionneur mérite de trouver la pièce qui
+            parle à son âme. Notre galerie en ligne présente une variété de styles et de médiums, des dessins au crayon
+            aux peintures numériques.
+        </p>
+        <p>
+            Notre équipe est composée de passionnés d'art qui travaillent sans relâche pour connecter les artistes avec
+            leur public. Nous organisons également des expositions virtuelles et des événements pour mettre en lumière
+            nos talents.
+        </p>
+    </section>
+    <footer class="foot">
+        <p style="margin-top: 10px; font-size: 0.9rem;">« L'art est une harmonie parallèle à la nature. » <b>Paul
+                Cézanne</b></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

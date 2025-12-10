@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Artligne</title>
+</head>
+
+<body>
+    <header>
+        <a href="#Home" class="logo1">Artligne</a>
+
+        <button class="menu" id="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </button>
+        <button class="menu" id="close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle"
+                viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+            </svg>
+        </button>
+        <a href="#Home" class="logo2">Artligne</a>
+        <nav class="navigation" id="nav">
+            <ul>
+
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li class="has-submenu">
+                    <a href="artistes.html">Artistes</a>
+                    <ul class="submenu">
+                        <li><a href="artistes.html#artiste1">Marie Leclerc</a></li>
+                        <li><a href="artistes.html#artiste2">Thomas Dubois</a></li>
+                        <li><a href="artistes.html#artiste3">Sophie Martin</a></li>
+                        <li><a href="artistes.html#artiste4">Jean Petit</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="theme-toggle">
+            <button class="theme-btn" id="claire" title="Mode clair">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-sun-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
+                </svg>
+            </button>
+            <button class="theme-btn" id="sombre" title="Mode sombre">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-moon-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.74.74 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <section class="chart" id="Gallery">
+        <h1>Notre Galerie</h1>
+        <div class="imgContent">
+            <img src="images/img (1).jpeg">
+            <h2>
+                Le selfie du quotidien
+            </h2>
+            <p>
+                Ce personnage souriant capture un selfie avec une expression pleine d’énergie et de simplicité. Les
+                détails de la pièce et du calendrier renforcent l’ambiance familière de la scène.
+            </p>
+        </div>
+        <div class="imgContent">
+            <img src="images/img (2).jpeg">
+            <h2>
+                Regard à travers les lunettes
+            </h2>
+            <p>
+                Le portrait met en valeur un regard profond derrière de larges lunettes, souligné par un travail
+                minutieux des ombres. La pose de la main ajoute une touche de réflexion et de douceur.
+            </p>
+        </div>
+        <div class="imgContent">
+            <img src="images/img (3).jpeg">
+            <h2>
+                La larme silencieuse
+            </h2>
+            <p>
+                Ce dessin montre le profil d’une jeune femme, les yeux fermés, laissant couler une larme silencieuse. La
+                douceur du trait contraste avec l’émotion forte qui traverse son visage.
+            </p>
+        </div>
+        <div class="imgContent">
+            <img src="images/img (4).jpeg">
+            <h2>
+                L'acoustic feminine
+            </h2>
+            <p>Une illustration d'une bonne ambiance feminine dans une melodie acoustic.</p>
+
+        </div>
+        <div class="imgContent">
+            <img src="images/img (5).jpeg">
+
+            <h2>
+                Accepter
+            </h2>
+            <p>Image illustrant une femme qui se laisse emporter par le vent de la vie</p>
+        </div>
+        <div class="imgContent">
+            <img src="images/img (6).jpeg">
+            <h2>
+                Sublime beauté </h2>
+            <p>
+                La beauté exprimer avec un crayon, noir sur blanc.
+            </p>
+        </div>
+        <div class="imgContent">
+            <img src="images/img (7).jpeg">
+            <h2>
+                Amour éternel
+            </h2>
+            <p>
+                L'union d'un homme et d'une femme devant l'autel.
+            </p>
+
+        </div>
+        <div class="imgContent">
+            <img src="images/img (8).jpeg">
+            <h2>
+                Tristesse fatal
+            </h2>
+            <p>
+                Une jeune femme versant ses larmes face aux surprise de la vie.
+            </p>
+        </div>
+        <div class="imgContent">
+            <img src="images/img (9).jpeg">
+            <h2>
+                Pinky sunset
+            </h2>
+            <p>
+                Des flamants roses profittant du magnifique coucher de soleil.
+            </p>
+        </div>
+        <div class="imgContent">
+
+            <img src="images/img (10).jpeg">
+            <h2>
+                Couple parfait
+            </h2>
+            <p>
+                Un couple amoureux se tenant la maindans une balade.
+            </p>
+        </div>
+
+
+        <div class="imgContent">
+            <img src="images/img (12).jpeg">
+            <h2>
+                Famille royal
+            </h2>
+            <p>
+                Qui dit royauté, dit héritage. Illustration d'une famille royal.
+            </p>
+        </div>
+        <div class="imgContent">
+            <img src="images/img (13).jpeg">
+            <h2>
+                Beautifull Girl
+            </h2>
+            <p>
+                Un regard revolver d'une femme magnifique.
+            </p>
+        </div>
+    </section>
+    <footer class="foot">
+        <p style="margin-top: 10px; font-size: 0.9rem;">« L'art est une harmonie parallèle à la nature. » <b>Paul
+                Cézanne</b></p>
+        <a href="#Gallery">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                <path
+                    d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0" />
+            </svg>
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
