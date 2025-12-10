@@ -77,12 +77,20 @@ header {
   transition: var(--transition);
 }
 
-.logo {
+.logo1 {
   font-family: var(--font-primary);
   font-size: 1.8rem;
   font-weight: bold;
   color: var(--couleur4);
   text-decoration: none;
+}
+.logo2 {
+  font-family: var(--font-primary);
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--couleur4);
+  text-decoration: none;
+  display: none;
 }
 
 .menu {
@@ -128,6 +136,9 @@ header {
 .navigation a:hover {
   color: var(--couleur4);
   transform: translateY(-3px);
+}
+#close {
+  display: none;
 }
 
 .navigation a#close {
@@ -430,10 +441,21 @@ header {
   padding: 2rem;
   margin-top: 2rem;
 }
+footer svg {
+  color: var(--couleur3);
+  width: 30px;
+  height: auto;
+}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
+  .logo1 {
+    display: none;
+  }
   .menu {
+    display: block;
+  }
+  .logo2 {
     display: block;
   }
 
@@ -468,8 +490,22 @@ header {
     border-bottom: 1px solid var(--couleur5);
   }
 
-  .navigation a#close {
+  #close {
+    display: none;
+    cursor: pointer;
+  }
+
+  #menu {
     display: block;
+    cursor: pointer;
+  }
+
+  #nav.active {
+    display: block;
+  }
+
+  .navigation a#close {
+    display: none;
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -529,7 +565,7 @@ header {
     padding: 1rem;
   }
 
-  .logo {
+  .logo2 {
     font-size: 1.5rem;
   }
 
