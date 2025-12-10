@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <a href="#Home" class="logo">Artligne</a>
+        <a href="#Home" class="logo1">Artligne</a>
 
         <button class="menu" id="menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
@@ -19,23 +19,31 @@
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
             </svg>
         </button>
-
+        <button class="menu" id="close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle"
+                viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+            </svg>
+        </button>
+        <a href="#Home" class="logo2">Artligne</a>
         <nav class="navigation" id="nav">
             <ul>
-                <li><a href="#" id="close">X</a></li>
-                <li><a href="#Home">Accueil</a></li>
-                <li><a href="#Apropos">À propos</a></li>
+
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
                 <li class="has-submenu">
-                    <a href="#Artistes">Artistes</a>
+                    <a href="artistes.html">Artistes</a>
                     <ul class="submenu">
-                        <li><a href="#artiste1">Marie Leclerc</a></li>
-                        <li><a href="#artiste2">Thomas Dubois</a></li>
-                        <li><a href="#artiste3">Sophie Martin</a></li>
-                        <li><a href="#artiste4">Jean Petit</a></li>
+                        <li><a href="artistes.html#artiste1">Marie Leclerc</a></li>
+                        <li><a href="artistes.html#artiste2">Thomas Dubois</a></li>
+                        <li><a href="artistes.html#artiste3">Sophie Martin</a></li>
+                        <li><a href="artistes.html#artiste4">Jean Petit</a></li>
                     </ul>
                 </li>
-                <li><a href="#Gallery">Galerie</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
@@ -69,196 +77,6 @@
         </div>
         <div>
             <img src="images\home.webp">
-        </div>
-    </section>
-
-    <section class="chart" id="Apropos">
-        <h1>À propos de nous</h1>
-        <p>
-            Artligne est une plateforme dédiée à la promotion et à la découverte d'artistes émergents et établis. Fondée
-            en 2020, notre mission est de créer un espace où l'art peut être apprécié, partagé et acheté en toute
-            simplicité.
-        </p>
-        <p>
-            Nous croyons que chaque artiste mérite d'être vu et chaque collectionneur mérite de trouver la pièce qui
-            parle à son âme. Notre galerie en ligne présente une variété de styles et de médiums, des dessins au crayon
-            aux peintures numériques.
-        </p>
-        <p>
-            Notre équipe est composée de passionnés d'art qui travaillent sans relâche pour connecter les artistes avec
-            leur public. Nous organisons également des expositions virtuelles et des événements pour mettre en lumière
-            nos talents.
-        </p>
-    </section>
-
-    <section class="chart" id="Artistes">
-        <h1>Nos Artistes</h1>
-        <div class="artist-list">
-            <div class="artist-item" id="artiste1">
-                <img src="images/Artistes/A (1).png">
-                <h2>Marie Leclerc</h2>
-                <p>Spécialiste du portrait réaliste au crayon, Marie capture l'essence de ses sujets avec une précision
-                    remarquable. Ses œuvres ont été exposées dans plusieurs galeries parisiennes.</p>
-            </div>
-            <div class="artist-item" id="artiste2">
-                <img src="images/Artistes/A (2).png">
-                <h2>Thomas Dubois</h2>
-                <p>Artiste digital utilisant des techniques mixtes, Thomas crée des univers oniriques où se mêlent
-                    réalité et imagination. Son style unique lui a valu plusieurs prix internationaux.</p>
-            </div>
-            <div class="artist-item" id="artiste3">
-                <img src="images/Artistes/A (4).png">
-                <h2>Sophie Martin</h2>
-                <p>Illustratrice spécialisée dans les scènes de vie quotidienne, Sophie transforme les moments simples
-                    en œuvres d'art émouvantes. Ses dessins racontent des histoires sans mots.</p>
-            </div>
-            <div class="artist-item" id="artiste4">
-                <img src="images/Artistes/A (3).png">
-                <h2>Jean Petit</h2>
-                <p>Maître de l'aquarelle, Jean capture la lumière et les couleurs avec une délicatesse exceptionnelle.
-                    Ses paysages urbains et naturels évoquent une profonde sérénité.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="chart" id="Gallery">
-        <h1>Notre Galerie</h1>
-        <div class="imgContent">
-            <img src="images/img (1).jpeg">
-            <h2>
-                Le selfie du quotidien
-            </h2>
-            <p>
-                Ce personnage souriant capture un selfie avec une expression pleine d’énergie et de simplicité. Les
-                détails de la pièce et du calendrier renforcent l’ambiance familière de la scène.
-            </p>
-        </div>
-        <div class="imgContent">
-            <img src="images/img (2).jpeg">
-            <h2>
-                Regard à travers les lunettes
-            </h2>
-            <p>
-                Le portrait met en valeur un regard profond derrière de larges lunettes, souligné par un travail
-                minutieux des ombres. La pose de la main ajoute une touche de réflexion et de douceur.
-            </p>
-        </div>
-        <div class="imgContent">
-            <img src="images/img (3).jpeg">
-            <h2>
-                La larme silencieuse
-            </h2>
-            <p>
-                Ce dessin montre le profil d’une jeune femme, les yeux fermés, laissant couler une larme silencieuse. La
-                douceur du trait contraste avec l’émotion forte qui traverse son visage.
-            </p>
-        </div>
-        <div class="imgContent">
-            <img src="images/img (4).jpeg">
-            <h2>
-                L'acoustic feminine
-            </h2>
-            <p>Une illustration d'une bonne ambiance feminine dans une melodie acoustic.</p>
-
-        </div>
-        <div class="imgContent">
-            <img src="images/img (5).jpeg">
-
-            <h2>
-                Accepter
-            </h2>
-            <p>Image illustrant une femme qui se laisse emporter par le vent de la vie</p>
-        </div>
-        <div class="imgContent">
-            <img src="images/img (6).jpeg">
-            <h2>
-                Sublime beauté </h2>
-            <p>
-                La beauté exprimer avec un crayon, noir sur blanc.
-            </p>
-        </div>
-        <div class="imgContent">
-            <img src="images/img (7).jpeg">
-            <h2>
-                Amour éternel
-            </h2>
-            <p>
-                L'union d'un homme et d'une femme devant l'autel.
-            </p>
-
-        </div>
-        <div class="imgContent">
-            <img src="images/img (8).jpeg">
-            <h2>
-                Tristesse fatal
-            </h2>
-            <p>
-                Une jeune femme versant ses larmes face aux surprise de la vie.
-            </p>
-        </div>
-        <div class="imgContent">
-            <img src="images/img (9).jpeg">
-            <h2>
-                Pinky sunset
-            </h2>
-            <p>
-                Des flamants roses profittant du magnifique coucher de soleil.
-            </p>
-        </div>
-        <div class="imgContent">
-
-            <img src="images/img (10).jpeg">
-            <h2>
-                Couple parfait
-            </h2>
-            <p>
-                Un couple amoureux se tenant la maindans une balade.
-            </p>
-        </div>
-
-
-        <div class="imgContent">
-            <img src="images/img (12).jpeg">
-            <h2>
-                Famille royal
-            </h2>
-            <p>
-                Qui dit royauté, dit héritage. Illustration d'une famille royal.
-            </p>
-        </div>
-        <div class="imgContent">
-            <img src="images/img (13).jpeg">
-            <h2>
-                Beautifull Girl
-            </h2>
-            <p>
-                Un regard revolver d'une femme magnifique.
-            </p>
-        </div>
-    </section>
-
-    <section class="chart" id="Contact">
-        <h1>Contactez-nous</h1>
-        <div class="contact-form">
-            <form id="contactForm">
-                <div class="form-group">
-                    <label for="name">Nom complet</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Adresse email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Sujet</label>
-                    <input type="text" id="subject" name="subject" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Envoyer le message</button>
-            </form>
         </div>
     </section>
 
